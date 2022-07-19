@@ -1,0 +1,245 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Zen+Antique+Soft&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  background-color: #000;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.menu__nav {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item {
+  min-width: 113px;
+  width: 100%;
+}
+
+.menu__link {
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 5px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  transition: all .3s linear;
+  display: block;
+}
+
+.menu__link:hover {
+  background-color: #ec7979;
+}
+
+.logo {
+  max-width: 270px;
+  height: 78px;
+  display: block;
+}
+
+.logo img {
+  width: 210px;
+  height: 78px;
+}
+
+.prototypes__section {
+  height: 1026px;
+  background-color: #0000;
+  background-image: linear-gradient(#00000080, #00000080), url("background.d41ffe82.jpg");
+  background-position: 0 0, 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll, scroll;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  padding: 183px 20px 185px;
+}
+
+.prototypes__container {
+  width: 100%;
+  max-width: 1170px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  display: flex;
+}
+
+.block__logo {
+  height: 100px;
+  margin-bottom: 73px;
+}
+
+.block__title {
+  text-transform: uppercase;
+  color: #fff;
+  max-width: 670px;
+  width: 100%;
+  align-items: center;
+  margin: 0 30px 100px 0;
+  font-family: Raleway, sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  display: flex;
+  position: relative;
+}
+
+.block__title:before {
+  content: "";
+  width: 170px;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  top: calc(100% + 56px);
+  left: 0;
+}
+
+.block__subtitle {
+  color: #fff;
+  max-width: 270px;
+  margin-bottom: 42px;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.block__button {
+  max-width: 270px;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: all .4s ease-out;
+}
+
+.block__button:hover {
+  background-color: #ec7979;
+}
+
+.button__link {
+  text-transform: capitalize;
+  color: #fff;
+  min-height: 58px;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  text-decoration: none;
+  transition: all 2s;
+  display: flex;
+}
+
+.button__link:hover {
+  color: #8b0000;
+  outline: none;
+}
+
+.button__link:focus {
+  color: #dc143c;
+  outline: none;
+}
+
+.prototypes__form {
+  max-width: 470px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.form__try {
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 29px;
+  font-family: Open Sans, sans-serif;
+  display: flex;
+}
+
+.form__title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  justify-content: center;
+  margin-bottom: 74px;
+  font-family: Open Sans, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 33px;
+  display: flex;
+}
+
+.form__trial {
+  max-width: 370px;
+  width: 100%;
+  color: #cc0303;
+  max-width: 370px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  margin: 0 50px 33px;
+  padding-bottom: 16px;
+  font-family: Open Sans, sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  display: block;
+}
+
+.form__trial:focus {
+  color: #8b4513;
+  background-color: #ffdab9;
+  outline: none;
+}
+
+.prototypes__button {
+  margin-top: 75px;
+}
+
+.form__button {
+  min-height: 60px;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  background: #ec7979;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  font-family: Open Sans, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: all .4s ease-in;
+}
+
+.form__button:hover {
+  background-color: #e9967a;
+}
+
+.form__button:focus {
+  background-color: #e78565;
+}
+
+/*# sourceMappingURL=index.e86c4a0e.css.map */
